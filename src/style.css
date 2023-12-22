@@ -1,0 +1,43 @@
+/* ОСНОВНОЕ */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #091120;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+/* Стили для скролл-бара в Chrome и Safari */
+body::-webkit-scrollbar {
+  width: 12px; /* Ширина скролл-бара */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333; /* Цвет ползунка скролл-бара */
+  border-radius: 6px; /* Закругленные углы ползунка */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #666; /* Цвет трека (фона) скролл-бара */
+}
+section {
+  height: 100vh;
+  padding: 0 calc(50% - 590px);
+  padding-top: 5.7vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+.blue {
+  color: #0078ff;
+  display: contents;
+}
+
+.blue__no__contents {
+  color: #0078ff;
+}
+
+
